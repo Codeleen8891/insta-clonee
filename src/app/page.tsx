@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import Header from '../components/Header'
 export default function Home() {
   return (
     <div>
@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="favicon.ico"></link>
         </meta>
       </Head>
-      {/* HEADER */}
+      <Header />
       {/* FEEDS */}
       {/* MODAL */}
     </div>
